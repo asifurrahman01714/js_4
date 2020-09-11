@@ -1,5 +1,8 @@
-var num=prompt("enter the number: ");
- if(num>=80)
+var num=parseInt(prompt("enter the number: ") ) ;
+ if(num > 100 || num < 0)
+ document.write("Invalid Marks");
+ 
+ else if(num >= 80 && num <=100)
  document.write("The Grade is A+");
  else if(num>=70 && num<80)
  document.write("the grade is A");
